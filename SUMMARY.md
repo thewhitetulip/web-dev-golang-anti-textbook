@@ -1,6 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installation](content/0install.md)
-   * [Tools](content/0tools.md)
+* Installation and Tools
+   * [Installation](content/0.0install.md)
+   * [Tools](content/0.1tools.md)
+* General
+   * [Sneak Peak](1.1servers.md)
+   * [General Talk](1.0general_talk.md)
 
+* [Contributors](CONTRIBUTORS.md)
