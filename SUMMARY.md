@@ -1,4 +1,4 @@
 # Summary
 
-* [Installation](content/0installtools_md.md)
+* [Installation](content/0install.md)
 
