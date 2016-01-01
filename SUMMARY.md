@@ -5,7 +5,7 @@
    * [Installation](content/0.0install.md)
    * [Tools](content/0.1tools.md)
 * General
-   * [Sneak Peak](1.1servers.md)
-   * [General Talk](1.0general_talk.md)
+   * [Sneak Peak](content/1.1servers.md)
+   * [General Talk](content/1.0general_talk.md)
 
 * [Contributors](CONTRIBUTORS.md)

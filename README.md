@@ -16,4 +16,4 @@ Written with love in India.
 
 ## Links
 
-- Next section: [Installation and Tools](0.0tools.md)
+- Next section: [Installation and Tools](content/0.0tools.md)
