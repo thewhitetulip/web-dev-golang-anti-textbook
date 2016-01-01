@@ -1,6 +1,6 @@
 # Installation
 
-This chapter is taken from [install](https://golang.org/doc/install) verbatim, except for the changes to be made to adapt to this book's styling format.
+This chapter is taken from [install page](https://golang.org/doc/install) verbatim, except for the changes to be made to adapt to this book's styling format.
 
 
 ### System requirements
