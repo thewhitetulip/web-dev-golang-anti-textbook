@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Installation and Tools
+* [Installation and Tools](content/0.0install.md)
    * [Installation](content/0.0install.md)
    * [Tools](content/0.1tools.md)
 * General
