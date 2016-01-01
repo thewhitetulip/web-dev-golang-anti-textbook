@@ -1,4 +1,4 @@
 # Summary
 
-* Install golang
+* [Installation and tools](install_tools.md)
 
