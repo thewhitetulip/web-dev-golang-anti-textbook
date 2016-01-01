@@ -7,5 +7,5 @@
 * General
    * [Sneak Peak](content/1.1servers.md)
    * [General Talk](content/1.0general_talk.md)
-
 * [Contributors](CONTRIBUTORS.md)
+
