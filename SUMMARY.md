@@ -13,7 +13,8 @@
    * [Database Handling](content/2.2database.md)
    * [Database Example](content/2.3example.md)
    * [Closing Remarks](content/2.4closingremarks.md)
-*  [Templates](content/3.0templating.md)
+*  Templates
+   * [Basics of Templates](content/3.0templating.md)
 *  [User Authentication](content/4.0authentication.md)
 * [Contributors](CONTRIBUTORS.md)
 
