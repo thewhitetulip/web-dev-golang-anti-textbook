@@ -2,8 +2,7 @@
 
 This book was written to teach how developing web applications in golang for people who know a bit of golang and have basic information about web applications in general. 
 
-We'll build a webapp without using a third party framework, but we'll use certain libraries which facilitate
-few aspects like handling sessions, authentication, but we will strive to write our own solutions first. This approach has multiple benefits that include the fact that framworks encapsulates most aspects of webdev to the users, that is precisely their purposes for one might not use a framework which needs you to implement everything from scratch, but when we don't use frameworks then we stand a chance of learning a lot of stuff and we can create our own framework to use in the future for a framework is nothing but a template at a project level.
+We(you) will build a webapp without using a third party framework and using as less external libraries as possible. The advantage is that you'll learn a lot when you get to code without a framework.
 
 I hereby present to you the anti text book.
 
