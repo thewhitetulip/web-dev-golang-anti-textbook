@@ -6,7 +6,7 @@
    * [Tools](content/0.1tools.md)
 * General
    * [General Talk](content/1.0general_talk.md)
-   * [Sneak Peak](content/1.1servers.md)
+   * [Sneak Peek](content/1.1servers.md)
 * Implementation
    * [Implementation Basics](content/2.0implementbasics.md)
    * [Basic Functionality](content/2.1functionality.md)
