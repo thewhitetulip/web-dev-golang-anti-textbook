@@ -8,7 +8,7 @@ I hereby present to you the anti text book.
 
 
 ##Contributing
-I don't profess to be a God of either golang or webdev or anything in general, but I don't claim that this is the best book for learning how to build web appplications with golang, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
+I don't profess to be a God of either golang or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with golang, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
 
 Written with love in India.
 
