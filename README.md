@@ -11,6 +11,8 @@ I don't profess to be a God of either Go or webdev or anything in general, and I
 
 Written with love in India.
 
+Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
+since it is under Creative Commons license.
 
 ## Links
 
