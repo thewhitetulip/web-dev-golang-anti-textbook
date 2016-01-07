@@ -14,6 +14,8 @@ Written with love in India.
 Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
 since it is under Creative Commons license.
 
+This book is a work in progress.
+
 ## Links
 
 - Next section: [Installation and Tools](content/0.0install.md)
