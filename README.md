@@ -1,5 +1,7 @@
 #About the book
 
+Please note that the book is a work in progress.
+
 This book was written to teach how to develop web applications in Go for people who know a bit of Go and have basic information about web applications in general. 
 
 We (you) will build a webapp without using a third party framework and using as few external libraries as possible. The advantage is that you'll learn a lot when you code without a framework.
@@ -14,7 +16,6 @@ Written with love in India.
 Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
 since it is under Creative Commons license.
 
-This book is a work in progress.
 
 ## Links
 
