@@ -11,6 +11,16 @@ I hereby present to you the anti text book.
 ##Contributing
 I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
 
+##Philosophy
+ - Through this book we want to teach how to develop web applications in Go. We expect the reader to know the basics of Go but we assume the reader knows **nothing** about how to write web applications
+ - The book shall comprise of chapters, if the topic is huge and doesn't fit into one chapter, then we split into multiple chapters.
+ - Each chapter should be split into logical parts or sections with a meaningful title which'll teach the reader something.
+ - Every concept should be accompanied by the Go code (if there is any), for *sneak peek* type sections write the Go pseudo code, writing just the necessary parts of the code and keeping everything else.
+ - *Brevity is the soul of wit*, so keep the description as small as possible. But this doesn't mean that we should just assume that the reader knows the concept.
+ - In the todo list manager which we are creating, we'll strive to implement as much functionality as possible to give a taste of practical Go programming to the reader, but we should mention
+   as a note the other way, suppose you re-implement a function like `ParseGlob` by listing all html files and using `ParseFiles` to parse them, we should mention about the function `ParseGlob`
+ - The main title should have one #, sections should have 2 #'s note should have 6 #'s (note should have a title too), multi line code should have two tabs indentation, single line of code should be inline with a backtick.
+
 Written with love in India.
 
 Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
