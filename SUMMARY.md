@@ -5,11 +5,11 @@
    * [Installation](content/0.0install.md)
    * [Tools](content/0.1tools.md)
 * General
-   * [General Talk](content/1.0general_talk.md)
-   * [Sneak Peek](content/1.1servers.md)
+   * [Go Programming Basics](content/1.0general_talk.md)
+   * [Web Programming Basics](content/1.1servers.md)
 * Implementation
-   * [Implementation Basics](content/2.0implementbasics.md)
-   * [Basic Functionality](content/2.1functionality.md)
+   * [Basic web application](content/2.0implementbasics.md)
+   * [Designing our web app](content/2.1functionality.md)
    * [Database Handling](content/2.2database.md)
    * [Database Example](content/2.3example.md)
    * [Closing Remarks](content/2.4closingremarks.md)

@@ -16,10 +16,13 @@ I don't profess to be a God of either Go or webdev or anything in general, and I
  - The book shall comprise of chapters, if the topic is huge and doesn't fit into one chapter, then we split into multiple chapters.
  - Each chapter should be split into logical parts or sections with a meaningful title which'll teach the reader something.
  - Every concept should be accompanied by the Go code (if there is any), for *sneak peek* type sections write the Go pseudo code, writing just the necessary parts of the code and keeping everything else.
- - *Brevity is the soul of wit*, so keep the description as small as possible. But this doesn't mean that we should just assume that the reader knows the concept.
+ - The code shouldn't be more than 80 characters wide because in the PDF versions of the book the code is invisible.
+ - *Brevity is the soul of wit*, so keep the description as small as possible. But this doesn't mean that we should just assume that the reader knows the concept and skip it
+     in such cases do explain the concept.
  - In the todo list manager which we are creating, we'll strive to implement as much functionality as possible to give a taste of practical Go programming to the reader, but we should mention
    as a note the other way, suppose you re-implement a function like `ParseGlob` by listing all html files and using `ParseFiles` to parse them, we should mention about the function `ParseGlob`
- - The main title should have one #, sections should have 2 #'s note should have 6 #'s (note should have a title too), multi line code should have two tabs indentation, single line of code should be inline with a backtick.
+ - The main title should have one #, sections should have 3 #'s note should have 6 #'s (note should have a title too)
+ - Multi line code should have three tabs indentation, single line of code can be indented using tabs or by backticks.
 
 Written with love in India.
 
