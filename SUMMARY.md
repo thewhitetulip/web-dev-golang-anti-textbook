@@ -11,10 +11,11 @@
    * [Basic web application](content/2.0implementbasics.md)
    * [Designing our web app](content/2.1functionality.md)
    * [Database Handling](content/2.2database.md)
-   * [Database Example](content/2.3example.md)
-   * [Closing Remarks](content/2.4closingremarks.md)
+   * [Webapp Example](content/2.3example.md)
+   * [Working with Forms](content/2.4workingwithform.md)
 * Templates
    * [Basics of Templates](content/3.0templating.md)
 * [User Authentication](content/4.0authentication.md)
+* [Using AJAX](content/5.0ajax.md)
 * [Contributors](CONTRIBUTORS.md)
 
