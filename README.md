@@ -13,7 +13,7 @@ I don't profess to be a God of either Go or webdev or anything in general, and I
 
 ##Philosophy
  - Through this book we want to teach how to develop web applications in Go. We expect the reader to know the basics of Go but we assume the reader knows **nothing** about how to write web applications
- - The book shall comprise of chapters, if the topic is huge and doesn't fit into one chapter, then we split into multiple chapters.
+ - The book shall comprise of chapters, if the topic is huge and doesn't fit into one chapter, then we split into multiple chapters, if possible.
  - Each chapter should be split into logical parts or sections with a meaningful title which'll teach the reader something.
  - Every concept should be accompanied by the Go code (if there is any), for *sneak peek* type sections write the Go pseudo code, writing just the necessary parts of the code and keeping everything else.
  - The code shouldn't be more than 80 characters wide because in the PDF versions of the book the code is invisible.
