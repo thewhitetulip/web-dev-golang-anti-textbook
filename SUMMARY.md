@@ -16,6 +16,6 @@
 * Templates
    * [Basics of Templates](content/3.0templating.md)
 * [User Authentication](content/4.0authentication.md)
-* [Using AJAX](content/5.0ajax.md)
+* [Working with Files](content/5.0Files.md)
 * [Contributors](CONTRIBUTORS.md)
 
