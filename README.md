@@ -8,6 +8,11 @@ We (you) will build a webapp without using a third party framework and using as 
 
 I hereby present to you the anti text book.
 
+The Go Programming Basics section has been adapted from [build-web-application-with-golang] (https://github.com/astaxie/build-web-application-with-golang/) by [astaxie] (http://github.com/astaxie)
+Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book.
+
+[Git book link] (https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)
+
 ##Contributing
 I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
 
@@ -29,9 +34,9 @@ Written with love in India.
 Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
 since it is under Creative Commons license.
 
-######Note:
-The third chapter, Go Programming Basics has been adapted from [build-web-application-with-golang] (https://github.com/astaxie/build-web-application-with-golang/) by (astaxie) [http://github.com/astaxie]
-Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book.
+#Basic Testing
+In the code directory, run this in bash. it'll sequentially execute all go files.
+`for i in `ls *.go`; do echo $i; go run $i; done`
 
 #License:
 
