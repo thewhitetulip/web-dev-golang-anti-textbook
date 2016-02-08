@@ -36,6 +36,7 @@ since it is under Creative Commons license.
 
 #Basic Testing
 In the code directory, run this in bash. it'll sequentially execute all go files.
+
     for i in `ls *.go`; do echo $i; go run $i; done
 
 #License:
