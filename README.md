@@ -6,12 +6,19 @@ This book was written to teach how to develop web applications in Go for people 
 
 We (you) will build a webapp without using a third party framework and using as few external libraries as possible. The advantage is that you'll learn a lot when you code without a framework.
 
+The book has a code section in the github repo where it is hosted, you are recommended to download the code too because it is the best way to learn the most out of this book.
+The code will contain simple example of the concept, you would be required to take the code ahead and build whatever app you are planning to build.
+
 I hereby present to you the anti text book.
 
-The Go Programming Basics section has been adapted from [build-web-application-with-golang] (https://github.com/astaxie/build-web-application-with-golang/) by [astaxie] (http://github.com/astaxie)
+The Go Programming Basics section has been adapted from [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/) by [astaxie](http://github.com/astaxie)
 Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book.
 
-[Git book link] (https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)
+[Git book link](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)
+
+##Code 
+The book comes with corresponding code, please use it to understand the book  completely, the book is just plain old theory if you do not check the code out.
+The code is present in the code folder in this repository itself.
 
 ##Contributing
 I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
@@ -34,14 +41,9 @@ Written with love in India.
 Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
 since it is under Creative Commons license.
 
-#Basic Testing
-In the code directory, run this in bash. it'll sequentially execute all go files.
-
-    for i in `ls *.go`; do echo $i; go run $i; done
-
 #License:
 
-Book License: [CC BY-SA 3.0 License] (http://creativecommons.org/licenses/by-sa/3.0/)
+Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 ## Links
 
