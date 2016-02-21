@@ -28,5 +28,6 @@
    * [Basics of Templates](content/3.0templating.md)
 * [User Authentication](content/4.0authentication.md)
 * [Working with Files](content/5.0Files.md)
+* [Routing](content/6.0routing.md)
 * [Contributors](CONTRIBUTORS.md)
 
