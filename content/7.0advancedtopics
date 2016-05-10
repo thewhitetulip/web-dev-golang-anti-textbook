@@ -1,0 +1,16 @@
+#Middlewares
+
+Middleware is really anything that extends your webapp in a modular way. Most common examples are probably parsing the request parameters/body and storing them in an easily-accessible format so you don't have to do it in every single handler, or session handling like we're talking about now. Other examples could be throttling or IP filtering, which would also happen before you start building your response, or compression, which would happen after you've built your response.
+
+The function I pasted above counts as middleware - it doesn't know anything about your app except how you handle sessions. If you're not logged in, it redirects, otherwise it doesn't do anything and passes along to the next handler. That next handler might be where you actually build your response, or it could be another middleware component that does something else first.
+
+To know someone's logged in, yes, you want to create a session identifier and store that somewhere on the server side (in memory or a database) and also set it in the user's cookies. Your session IDs should be sufficiently random and long that they couldn't be easily guessed. I think a common way of satisfying that is creating a UUID and then base64 encode that. Or, you could just generate a bunch of random bytes.
+
+To know which user is logged in, the session ID should be the key that maps to a user ID. So, you'd make a map of Session ID => User ID, or something similar in your database.
+
+Then, before every request, you'd
+
+    Check user's cookies for Session ID. If none, user is not logged in.
+    Check your store for user's Session ID. If it's not found, then it's invalid - user is not logged in.
+    If you found it, use it to look up the user's ID. User is now logged in.
+    Now you've got the user ID and can use it as a filter when querying your DB if you only want to show that user's tasks.
