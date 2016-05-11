@@ -29,5 +29,6 @@
 * [User Authentication](content/4.0authentication.md)
 * [Working with Files](content/5.0Files.md)
 * [Routing](content/6.0routing.md)
+* [Middleware](content/7.0middleware.md)
 * [Contributors](CONTRIBUTORS.md)
 
