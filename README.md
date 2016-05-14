@@ -2,26 +2,21 @@
 
 Please note that the book is a work in progress.
 
-This book was written to teach how to develop web applications in Go for people who know a bit of Go and have basic information about web applications in general. 
+This book was written to teach how to develop web applications in Go for newbies. 
 
-We (you) will build a webapp without using a third party framework and using as few external libraries as possible. The advantage is that you'll learn a lot when you code without a framework.
+You will create a to do list application as you go ahead in the book. The book aims to teach concepts based on simple yet real examples and not some dummy examples. 
 
-The book has a code section in the github repo where it is hosted, you are recommended to download the code too because it is the best way to learn the most out of this book.
-The code will contain simple example of the concept, you would be required to take the code ahead and build whatever app you are planning to build.
-
-I hereby present to you the anti text book.
-
-The Go Programming Basics section has been adapted from [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/) by [astaxie](http://github.com/astaxie)
-Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book.
+There is a code section available in the Github repo.
 
 [Git book link](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)
 
 ##Code 
 The book comes with corresponding code, please use it to understand the book  completely, the book is just plain old theory if you do not check the code out.
-The code is present in the code folder in this repository itself.
 
 ##Contributing
 I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
+
+I got feedback from a reddit user that maybe it is too early for me to start writing this book, decades ago, a young student from the University of Helsinki had an endless debate with Andrew Tannenbaum over comp.minix, it was about monolithic kernels, had the student listened to Andrew Tannenbaum, the world probably would not have had Linux. This is the whole point of open source projects, a little initiative from everyone goes a long way.
 
 ##Philosophy
  - Through this book we want to teach how to develop web applications in Go. We expect the reader to know the basics of Go but we assume the reader knows **nothing** about how to write web applications
@@ -38,12 +33,14 @@ I don't profess to be a God of either Go or webdev or anything in general, and I
 
 Written with love in India.
 
-Disclaimer: The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications
-since it is under Creative Commons license.
-
 #License:
 
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
+
+#Note:
+1. The Go Programming Basics section has been adapted from [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/) by [astaxie](http://github.com/astaxie)
+Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book.
+2. The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications.
 
 ## Links
 
