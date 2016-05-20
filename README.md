@@ -4,12 +4,13 @@ This book was written to teach how to develop web applications in Go for newbies
 
 You will create a to do list application as you go ahead in the book. The book aims to teach concepts based on simple yet real examples and not some dummy examples. 
 
-There is a code section available in the Github repo.
+There is a code section available in the Github repo. If you are reading somewhere other than github, here's the link to the [Github Repo](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
 
 [Read Online](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)  [Download PDF](https://www.gitbook.com/download/pdf/book/thewhitetulip/webapp-with-golang-anti-textbook)
 
 ##Code 
 The book comes with corresponding code, please use it to understand the book  completely, the book is just plain old theory if you do not check the code out.
+
 
 ##Contributing
 I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
