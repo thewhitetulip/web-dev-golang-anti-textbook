@@ -29,5 +29,6 @@
 * [Working with Files](content/5.0Files.md)
 * [Routing](content/6.0routing.md)
 * [Middleware](content/7.0middleware.md)
+* [Building an API](content/8.0buildingAPI.md)
 * [Contributors](CONTRIBUTORS.md)
 
