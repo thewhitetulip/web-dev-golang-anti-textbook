@@ -1,5 +1,7 @@
 #About the book
 
+[![Join the chat at https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook](https://badges.gitter.im/thewhitetulip/web-dev-golang-anti-textbook.svg)](https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This book was written to teach how to develop web applications in Go for newbies. 
 
 You will create a to do list application as you go ahead in the book. The book aims to teach concepts based on simple yet real examples and not some dummy examples. 
