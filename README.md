@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook](https://badges.gitter.im/thewhitetulip/web-dev-golang-anti-textbook.svg)](https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+#Note: the book is being updated, and will not be put on gitbook anymore, we'll be placing the book at [leanpub](http://leanpub.com/antitextbookGo/preview). This is why the text in the folder manuscript is latest, the one in coetent is the old one.
+
 This book was written to teach how to develop web applications in Go. 
 
 You will create a to do list application as you go along with the book. Learning anything is faster when it is done via examples, this book strives to teach maximum concepts by examples.
