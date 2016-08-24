@@ -22,3 +22,6 @@
 6.0routing.md
 7.0middleware.md
 8.0buildingAPI.md
+9.0unitTesting.md
+10.0versionControl.md
+11.0socketProgramming.md

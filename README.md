@@ -42,6 +42,7 @@ Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3
 1. The Go Programming Basics section has been adapted from [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang/) by [astaxie](http://github.com/astaxie)
 Links were updated to refer the correct aspects of the current book, titles were updated to fit into this book. Modifications to the content was done to suit to the style of the book.
 2. The gopher in the cover page is taken from https://golang.org/doc/gopher/appenginegophercolor.jpg without modifications.
+3. The chapter on database is adapted from https://github.com/VividCortex/go-database-sql-tutorial/ with modifications.
 
 ## Links
 
