@@ -48,4 +48,4 @@ Links were updated to refer the correct aspects of the current book, titles were
 
 ##### Links
 
-- Next section: [Installation and Tools](manuscript/0.0installation.md)
+- [Next section](manuscript/0.0installation.md)
