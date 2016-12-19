@@ -2,14 +2,11 @@
 
 [![Join the chat at https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook](https://badges.gitter.im/thewhitetulip/web-dev-golang-anti-textbook.svg)](https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Following are the ways to access the book:
+[Read online](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/) for free on [Gitbooks](http://gitbook.com/book/thewhitetulip/webapp-with-golang-anti-textbook/)
 
-1. [ePub](https://www.gitbook.com/download/epub/book/thewhitetulip/webapp-with-golang-anti-textbook)
-1. [Mobi](https://www.gitbook.com/download/mobi/book/thewhitetulip/webapp-with-golang-anti-textbook)
-1. [PDF Gitbooks](https://www.gitbook.com/download/pdf/book/thewhitetulip/webapp-with-golang-anti-textbook)
-1. [PDF Leanpub](https://leanpub.com/antitextbookGo) I find the leanpub formatting a bit better than gitbooks. If you think it is worth it you can pay for it, otherwise, just slide the dial to the left and download the book for free. 
-1. [Read online](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)
-1. [Gitbooks](http://gitbook.com/book/thewhitetulip/webapp-with-golang-anti-textbook/)
+OR
+
+**Download** it via [leanpub](https://leanpub.com/antitextbookGo). 
 
 This book was written to teach how to develop web applications in Go. 
 
