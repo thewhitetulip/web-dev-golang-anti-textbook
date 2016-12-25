@@ -12,6 +12,8 @@ This book was written to teach how to develop web applications in Go.
 
 You will create a to do list application as you go along with the book. Learning anything is faster when it is done via examples, this book strives to teach maximum concepts by examples.
 
+Please use the `front end` folder in the `code` folder to get the index.html of the Tasks project and work on it while reading this tutorial.
+
 This book is open source at [Github Repo](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/). 
 
 ##Code 
