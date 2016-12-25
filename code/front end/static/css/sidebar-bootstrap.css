@@ -1,0 +1,52 @@
+.navbar-fixed-top + .sidebar-trigger .sidebar-toggle,
+.navbar-fixed-bottom + .sidebar-trigger .sidebar-toggle,
+.navbar-fixed-top + .sidebar-trigger + .sidebar-trigger .sidebar-toggle,
+.navbar-fixed-bottom + .sidebar-trigger + .sidebar-trigger .sidebar-toggle {
+  position: fixed;
+  z-index: 1032;
+}
+.navbar-fixed-top + .sidebar-trigger .sidebar-wrapper,
+.navbar-fixed-bottom + .sidebar-trigger .sidebar-wrapper,
+.navbar-fixed-top + .sidebar-trigger + .sidebar-trigger .sidebar-wrapper,
+.navbar-fixed-bottom + .sidebar-trigger + .sidebar-trigger .sidebar-wrapper {
+  z-index: 1033;
+}
+.navbar-fixed-bottom + .sidebar-trigger .sidebar-toggle,
+.navbar-fixed-bottom + .sidebar-trigger + .sidebar-trigger .sidebar-toggle {
+  top: inherit;
+  bottom: 0;
+}
+.navbar-fixed-top + .container,
+.navbar-fixed-top + .container-fluid,
+.navbar-fixed-top + .sidebar-trigger + .container,
+.navbar-fixed-top + .sidebar-trigger + .container-fluid,
+.navbar-fixed-top + .sidebar-trigger + .sidebar-trigger + .container,
+.navbar-fixed-top + .sidebar-trigger + .sidebar-trigger + .container-fluid {
+  margin-top: 70px;
+}
+.navbar-fixed-bottom + .container,
+.navbar-fixed-bottom + .container-fluid,
+.navbar-fixed-bottom + .sidebar-trigger + .container,
+.navbar-fixed-bottom + .sidebar-trigger + .container-fluid,
+.navbar-fixed-bottom + .sidebar-trigger + .sidebar-trigger + .container,
+.navbar-fixed-bottom + .sidebar-trigger + .sidebar-trigger + .container-fluid {
+  margin-bottom: 70px;
+}
+@media (min-width: 992px) {
+  .sidebar-force-open:not(.sidebar-right) + .container,
+  .sidebar-force-open:not(.sidebar-right) + .sidebar-trigger + .container {
+    padding-left: 225px;
+  }
+  .sidebar-force-open:not(.sidebar-right) + .container-fluid,
+  .sidebar-force-open:not(.sidebar-right) + .sidebar-trigger + .container-fluid {
+    margin-left: 210px;
+  }
+  .sidebar-force-open.sidebar-right + .container,
+  .sidebar-force-open.sidebar-right + .sidebar-trigger + .container {
+    padding-right: 225px;
+  }
+  .sidebar-force-open.sidebar-right + .container-fluid,
+  .sidebar-force-open.sidebar-right + .sidebar-trigger + .container-fluid {
+    margin-right: 210px;
+  }
+}

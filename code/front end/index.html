@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Tasks</title>
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/styles.css" rel="stylesheet">
+    <!--<link href="/static/css/jquery-ui.min.css" rel="stylesheet">-->
+    <link href="/static/css/sidebar.css" rel="stylesheet">
+    <link href="/static/css/sidebar-bootstrap.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <!--<script src="/static/js/modernizr-2.6.2.min.js"></script>-->
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <script src="/static/js/jquery.min.js"></script>
+    <!--<script src="/static/js/jquery-ui.min.js"></script> ENABLE WHEN DUE DATE FEATURE IS REQUIRED-->
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery
+		<script>window.jQuery || document.write('<script src="/static/js/jquery-1.8.2.min.js"><\/script>')</script>
+		-->
+    <!-- Bootstrap JS -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/hammer.min.js"></script>
+    <script src="/static/js/sidebar.js"></script>
+
+</head>
+
+<body>
+    <!-- The navigation bar-->
+    <div id = "noti" class='notification hidden '><span id="message"><p id="actlMsg">Hello world</p></span></div>
+    <nav class="navbar navbar-default navbar-fixed-top mainHeader">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <span id="icons">
+                    <button  data-original-title="Search" data-placement="bottom" data-toggle="tooltip" title=""  id="searchFormBtn" class="btn btn-action glyphicon glyphicon-search"  type="button"></button>
+                    
+                   <a href="/del-category/"> <button  data-original-title="Delete Category" data-placement="bottom" data-toggle="tooltip" title="" class="btn btn-action glyphicon glyphicon-trash"  type="button"></button></a>
+                   <button  data-original-title="Edit Category" data-placement="bottom" data-toggle="tooltip" id="editCatFrmBtn" title="" class="btn btn-action glyphicon glyphicon-pencil"  type="button"></button>
+                  
+                   <a href="/logout"> <button  data-original-title="Logout" data-placement="bottom" data-toggle="tooltip" title="Logout" class="btn btn-action glyphicon glyphicon-off"  type="button"></button></a>
+                </span>
+
+                <p class="navbar-brand" href="/pending">
+                    Pending
+                </p>
+
+                <form action="/upd-category/pending" method="POST" class="hidden" id="EditForm">
+                    <input type="text" name="catname" placeholder="new cat name" >
+                    <input type="submit" value="Submit" class="btn btn-default" />
+                </form>
+
+                <form action="/search/" method="POST" class="hidden" id="SearchForm">
+                    <input type="text" name="query" placeholder="Search" >
+                    <input type="submit" value="Submit" class="btn btn-default" />
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- SIDEBAR -->
+    <div data-sidebar="true" class="sidebar-trigger">
+
+        <a class="sidebar-toggle" href="">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </a>
+
+        <div class="sidebar-wrapper sidebar-default">
+            <div class="sidebar-scroller">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-group"><span>Tasks</span>
+                        <ul class="sidebar-group-menu">
+
+                            <li class="sidebar-item">
+                                <a href="/"  class="active"><span class="glyphicon glyphicon-tasks"></span> <span class="nav-item">Pending</span></a>
+
+                            </li>
+
+                            <li class="sidebar-item">
+                                <a href="/completed/" ><span class="glyphicon glyphicon-check"></span>  <span class="nav-item"> Completed</span></a>
+                            </li>
+
+                            <li class="sidebar-item">
+                                <a href="/deleted/" ><span class="glyphicon glyphicon-trash"></span>  <span class="nav-item"> Deleted</span></a>
+                            </li>
+
+                            <hr>
+
+                            <li class="sidebar-item">
+                                
+                                <h5> Categories</h5>
+                                <!--<button title="New category" id="toggleCategoryForm" data-placement="left" data-toggle="tooltip" class="btn glyphicon glyphicon-plus" style="font-size:small; margin-left:120px;"></button>-->
+                                <span id="categoryForm">
+                                 <form action="/add-category/" method="POST">
+                                 <span> 
+							         <input type="text" name="category" width="50px">
+							         <input type="submit" text="submit" class="btn btn-primary" value="Submit"/>
+                                 </span>
+                                </form>
+                                </span>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="/category/dummy"  class="active">
+                                    <span class="nav-item"> Dummy</span> <span class="badge pull-right">4</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="/category/dummy"  class="active">
+                                    <span class="nav-item"> Dummy</span> <span class="badge pull-right">4</span></a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="/category/dummy"  class="active">
+                                    <span class="nav-item"> Dummy</span> <span class="badge pull-right">4</span></a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--end mainHeader -->
+<button class=" btn-danger btn glyphicon glyphicon-plus floating-action-icon floating-action-icon-add"></button>
+
+<!-- Add note modal -->
+<div class="modal fade " id="addNoteModal" tabindex="-1" role="dialog" aria-labelledby="newNoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="newNoteLabel"><span class="glyphicon glyphicon-pencil"></span>  New Task</h4>
+            </div>
+            <div class="modal-body">
+                <form enctype="multipart/form-data" action="/add/" method="POST">
+                    <div class="form-group">
+
+                        <input type="text" name="title" class="form-control" id="add-note-title" placeholder="Title" />
+                        <input class="hidden" name="CSRFToken" value="CSRFToken" />
+                    </div>
+                    <div class="form-group">
+
+                        <textarea class="form-control" name="content" id="add-note-content" placeholder="Content" rows="10" ></textarea>
+                        <a id="toggleAddFileGrp">Add File</a>
+                        <span id="file-group" class="hidden">
+                            File: <input type="file" name="uploadfile" />
+                        </span>
+                         <!--Date: <input id="datepicker" name="dueDate"/>-->
+                        <br> Priority:
+                        <input type="radio" name="priority" value="3" /> High
+                        <input type="radio" name="priority" value="2" /> Medium
+                        <input type="radio" name="priority" value="1" /> Low
+                        <br>
+                        <input type="checkbox" name="hide" id="hideChk"> Hide from timeline
+                    </div>
+                    Category:
+                    <select name="category" class="dropdown">
+                        <option>---</option>
+                        <option value="one" selected="true"> </option>
+                        <option value="two" > </option>
+                    </select>
+                   
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                <input type="submit" value="Submit" class="btn btn-primary" id="addNoteBtn" />
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="timeline">
+    
+    <div class="note" id="1">
+        <p class="noteHeading ">One task
+        </p> <span class="toggle glyphicon glyphicon-resize-full"></span>
+
+        <span class="noteContent">
+            This is a task
+            1 out of 3 is completed
+                 <div class="commentslist">
+                    
+                    <div class="comment">
+                        <span>tsample comment</span>
+                        <span class="timestamp">suraj 26 April</span>
+                        <a href="/del-comment/1"><span class="glyphicon glyphicon-trash timestamp"></span></a>
+                    </div> 
+                   
+                    
+                    <div class="comment">
+                        <form method="POST" action="/add-comment/">
+                        <textarea rows="2" cols="75" name="commentText" placeholder="Add Comment"></textarea>
+                        <input type="text" class="hidden" name="taskID" value="2">
+                        <input type="submit" value="Comment" class="btn btn-primary" />
+                        </form> 
+                    </div>
+                 </div>
+        </span>
+
+        <span class="notefooter">
+        <ul class="menu">
+          <li role="presentation">Priority: 3</li>
+          <li role="presentation">
+              <span class="glyphicon glyphicon-time"></span> 12June</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/trash/1">
+                <span class="glyphicon glyphicon-trash"></span></a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/complete/1">
+                <span class="glyphicon glyphicon-check"></span></a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/edit/1">
+                <span class="glyphicon glyphicon-pencil"></span></a>
+        </li>
+        <li role="presentation">
+              <a href="/category/dummy"> dummy</a>
+          </li>
+        </ul>
+        </span>
+    </div>
+    
+    <div class="note" id="1">
+        <p class="noteHeading ">One task
+        </p> <span class="toggle glyphicon glyphicon-resize-full"></span>
+
+        <span class="noteContent">
+            This is a task
+            1 out of 3 is completed
+                 <div class="commentslist">
+                    
+                    <div class="comment">
+                        <span>tsample comment</span>
+                        <span class="timestamp">suraj 26 April</span>
+                        <a href="/del-comment/1"><span class="glyphicon glyphicon-trash timestamp"></span></a>
+                    </div> 
+                   
+                    
+                    <div class="comment">
+                        <form method="POST" action="/add-comment/">
+                        <textarea rows="2" cols="75" name="commentText" placeholder="Add Comment"></textarea>
+                        <input type="text" class="hidden" name="taskID" value="2">
+                        <input type="submit" value="Comment" class="btn btn-primary" />
+                        </form> 
+                    </div>
+                 </div>
+        </span>
+
+        <span class="notefooter">
+        <ul class="menu">
+          <li role="presentation">Priority: 3</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/trash/1">
+                <span class="glyphicon glyphicon-trash"></span></a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/complete/1">
+                <span class="glyphicon glyphicon-check"></span></a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="/edit/1">
+                <span class="glyphicon glyphicon-pencil"></span></a>
+        </li>
+        <li role="presentation">
+              <a href="/category/dummy"> dummy</a>
+          </li>
+        </ul>
+        </span>
+    </div>
+
+<!-- this should be displayed when the tasks list is empty
+    <div class="note">
+        <p class="noteHeading">No Tasks here</p>
+        <p class="notefooter">Create new task
+            <button class="floating-action-icon-add" >
+                here </button>
+        </p>
+    </div>
+-->
+</div>
+<footer class="footer">
+    Made in India with <span class="glyphicon glyphicon-heart"></span> by <a href="htp://github.com/thewhitetulip">@thewhitetulip</a>
+</footer>
+
+ <script src="/static/js/vue.js"></script>
+ <script src="/static/js/app.js"></script>
+	 
+</body>
+
+</html>
