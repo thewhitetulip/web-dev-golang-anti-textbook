@@ -4,6 +4,8 @@
 
 [Read online](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/) for free on [Gitbooks](http://gitbook.com/book/thewhitetulip/webapp-with-golang-anti-textbook/)
 
+[YouTube series](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/, you can download it from https://leanpub.com/antitextbookGo/)
+
 OR
 
 **Download** it via [leanpub](https://leanpub.com/antitextbookGo). 
