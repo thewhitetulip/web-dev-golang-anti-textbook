@@ -2,24 +2,30 @@
 
 [![Join the chat at https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook](https://badges.gitter.im/thewhitetulip/web-dev-golang-anti-textbook.svg)](https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+|Source | Read online | Watch  | Download | Code | Donate |
+| ----| ---- | ---- | ------ | ------ | ------ |
+|[Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | [leanpub](https://leanpub.com/antitextbookGo) | [Tasks](http://github.com/thewhitetulip/Tasks) | [ ![Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/sapatil)|
 
-|Source | Read online | Watch  | Download |
-| ----| ---- | ---- | ------ |
-|On [Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| For free on [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| The [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | The PDF/MOBi/Epub via [leanpub](https://leanpub.com/antitextbookGo). 
+## Why donate?
+The tutorial is available for free download all formats via Gitbooks and pay as you go model via Leanpub, a $5 donation would go a long way to supporting this project and it'll help me keep this project updated.
 
 ## What is this?
 This is an easy to understand example based tutorial aimed at those who know a little of Go and nothing of webdev and want to learn how to write a webserver in Go. You will create a to do list application as you advance the chapters.
 
 Please use the `front end` folder in the `code` folder to get the index.html of the Tasks project and work on it while reading this tutorial.
 
-## Code 
-There is a code section available in the Github repo for reference. The code is available for the "Introduction to Go" chapter. For all other chapters, please refer to the http://github.com/thewhitetulip/Tasks, which contains the complete application which you'll build in this book. I use the Tasks application to manage my Todo Lists, so the app will keep getting updated with new features.
+## Supporting Docs
+We have a YouTube series and a fully functioning web application as supporting documents. [Tasks](http://github.com/thewhitetulip/Tasks) is the application which you'll as you read into the book
 
-You can also refer to the code accompanied by the YouTube series, [here](https://github.com/thewhitetulip/write-webapps-in-go-video). The code is published as branches, each video has a particular branch.
+If you prefer learning by watching, [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4). The code corresponding to the YouTube series is available [here](https://github.com/thewhitetulip/write-webapps-in-go-video). The code is published as branches, each video has a particular branch.
+
+## Multiversity
+This guide is a part of the [Multiversity](https://github.com/thewhitetulip/multiversity) initiative. The aim is to have high quality open source tutorials along with screencasts.
 
 ## Contributing
-I don't profess to be a God of either Go or webdev or anything in general, and I don't claim that this is the best book for learning how to build web appplications with Go, but I do believe that good things happen when people collaborate, so pull requests are not only appreciated, but they are welcome.
+We welcome all Pull Requests, please raise an issue before starting your work!
 
+## Backstory
 I got feedback from a reddit user that maybe it is too early for me to start writing this book. Decades ago, a young student from the University of Helsinki had an endless debate with Andrew Tannenbaum on comp.minix. It was about monolithic kernels. Had the student listened to Andrew Tannenbaum, the world probably would not have had Linux. This is the whole point of open source projects, a little initiative from everyone goes a long way. I would like to thank everyone who gave their suggestions on reddit and HN.
 
 ## Philosophy
@@ -34,7 +40,7 @@ I got feedback from a reddit user that maybe it is too early for me to start wri
  - The main title should have one #, sections should have 2 #'s sub section should have 4 and notes should have 6 #'s (note should have a title too).
  - Multi-line code should have three tabs indentation, single line of code can be indented using tabs or by backticks.
 
-Written with love in India.
+Written with love in India with help from the Internet.
 
 # License:
 
