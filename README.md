@@ -38,7 +38,7 @@ I got feedback from a reddit user that maybe it is too early for me to start wri
      in such cases do explain the concept.
  - In the todo list manager which we are creating, we'll strive to implement as much functionality as possible to give a taste of practical Go programming to the reader. In cases where we re-implement stdlib stuff, we should mention it clearly.
  - The main title should have one #, sections should have 2 #'s sub section should have 4 and notes should have 6 #'s (note should have a title too).
- - Multi-line code should have three tabs indentation, single line of code can be indented using tabs or by backticks.
+ - Multi-line code should use [syntax fencing](https://help.github.com/articles/creating-and-highlighting-code-blocks/), single line of code can be indented using tabs or by backticks.
 
 Written with love in India with help from the Internet.
 
