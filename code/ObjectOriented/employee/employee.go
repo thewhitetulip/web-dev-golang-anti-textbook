@@ -18,7 +18,7 @@ type Employee struct {
 	company string
 }
 
-// define a method in Human
+// SayHi: define a method in Human
 func (h *Human) SayHi() {
 	fmt.Printf("Hi, I am %s you can call me on %s\n", h.name, h.phone)
 }

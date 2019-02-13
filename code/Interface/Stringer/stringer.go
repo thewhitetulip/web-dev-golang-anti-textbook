@@ -11,7 +11,7 @@ type Human struct {
 	phone string
 }
 
-// Human implemented fmt.Stringer
+// String: Human implemented fmt.Stringer
 func (h Human) String() string {
 	return "Name:" + h.name + ", Age:" + strconv.Itoa(h.age) + " years, Contact:" + h.phone
 }
