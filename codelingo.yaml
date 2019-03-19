@@ -1,0 +1,6 @@
+tenets:
+  - import: codelingo/effective-go/comment-first-word-as-subject
+  - import: codelingo/go/tested
+  - import: codelingo/go/global-var
+  - import: codelingo/go/golint
+  - import: codelingo/lightning-network-daemon/exported-package-is-tested
