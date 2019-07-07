@@ -2,12 +2,9 @@
 
 [![Join the chat at https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook](https://badges.gitter.im/thewhitetulip/web-dev-golang-anti-textbook.svg)](https://gitter.im/thewhitetulip/web-dev-golang-anti-textbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-|Source | Read online | Watch  | Download | Code | Donate |
+|Source | Read online | Watch  | Download | Code | Pay? |
 | ----| ---- | ---- | ------ | ------ | ------ |
-|[Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | [leanpub](https://leanpub.com/antitextbookGo) | [Tasks](http://github.com/thewhitetulip/Tasks) | [ ![Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/sapatil)|
-
-## Why donate?
-The tutorial is available for free download all formats via Gitbooks and pay as you go model via Leanpub, a $5 donation would go a long way to supporting this project and it'll help me keep this project updated.
+|[Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | [leanpub](https://leanpub.com/antitextbookGo) | [Tasks](http://github.com/thewhitetulip/Tasks) | This book is free.|
 
 ## What is this?
 This is an easy to understand example based tutorial aimed at those who know a little of Go and nothing of webdev and want to learn how to write a webserver in Go. You will create a to do list application as you advance the chapters.
