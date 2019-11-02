@@ -4,7 +4,7 @@
 
 |Source | Read online | Watch  | Download | Code | Pay? |
 | ----| ---- | ---- | ------ | ------ | ------ |
-|[Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | [leanpub](https://leanpub.com/antitextbookGo) | [Tasks](http://github.com/thewhitetulip/Tasks) | This book is free.|
+|[Github](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)| [Gitbooks](https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/)| [YouTube series](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4) | [leanpub](https://leanpub.com/antitextbookGo) | [Tasks](http://github.com/thewhitetulip/Tasks) | This book is free, but if you want to pay, you can buy it on leanpub.|
 
 ## What is this?
 
