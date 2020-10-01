@@ -13,7 +13,7 @@ little of Go and nothing of webdev and want to learn how to write a webserver
 in Go. You will create a to do list application as you advance the chapters.
 
 Please use the `front end` folder in the `code` folder to get the index.html
-of the Tasks project and work on it while reading this tutorial.
+of the Tasks project and work on it while reading this tutorials.
 
 ## Supporting Docs
 
@@ -62,8 +62,8 @@ like to thank everyone who gave their suggestions on reddit and HN.
 - The code shouldn't be more than 80 characters wide because in the PDF
   versions of the book the code is invisible.
 - *Brevity is the soul of wit*, please keep the description as small as
-     possible. This doesn't mean we skip it, but try to explain it in as
-     simple words as possible. In such cases do explain the concept.
+     possible. This doesn't mean we skip it, but try to explain it in easy
+     language as possible. In such cases do explain the concept.
 - In the todo list manager which we are creating, we'll strive to implement as
   much functionality as possible to give a taste of practical Go programming
   to the reader. In cases where we re-implement stdlib stuff, we should
@@ -74,7 +74,7 @@ like to thank everyone who gave their suggestions on reddit and HN.
   fencing](https://help.github.com/articles/creating-and-highlighting-code-blocks/),
   single line of code can be indented using tabs or by backticks.
 
-Written with love in India with help from the Internet.
+Written with love and affection in India with help from the Internet.
 
 ## License
 
@@ -89,7 +89,7 @@ License](http://creativecommons.org/licenses/by-sa/3.0/)
    correct aspects of the current book, titles were updated to fit into this
    book. Modifications to the content was done to suit to the style of the
    book.
-1. The gopher in the cover page is taken from
+1. The Gopher in the cover page is taken from
    https://golang.org/doc/gopher/appenginegophercolor.jpg without
    modifications.
 1. The chapter on database is adapted from
